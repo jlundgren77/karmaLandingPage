@@ -1,9 +1,68 @@
-body {
-	background-color: LightGray;
-
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-div {
+
+html, 
+body {
+	
+	height: 100%;
+
+	
+}
+
+body {
+	background-color: LightGray;
+}
+
+/*div {
 
 	border: 1px solid Chocolate;
 }
+*/
+.content {
+	padding: 0 15px;
+	
+}
+
+.main-nav > .content {
+	margin: 0 auto;
+	width: 970px;
+	height: 70px;
+}
+
+.main-nav {
+	background-color: #fff;
+	position: fixed;
+	width: 100%;
+}
+.main-nav .links{
+	float: right;
+	font-family: 'Roboto', sans-serif;
+	color: #838994;
+	margin-top: 25px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.main-nav .links li {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.main-nav .logo {
+	height: 70px;
+}
+
+.main-nav .links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.main-nav .links li:hover {
+	cursor: pointer;
+	color: #333333;
+}
+
+
+
