@@ -14,6 +14,9 @@ body {
 
 body {
 	background-color: LightGray;
+	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 /*div {
@@ -39,15 +42,15 @@ body {
 }
 .main-nav .links{
 	float: right;
-	font-family: 'Roboto', sans-serif;
 	color: #838994;
+	font-size: 1em;
 	margin-top: 25px;
-	-webkit-font-smoothing: antialiased;
+	
 }
-
 .main-nav .links li {
 	display: inline-block;
 	margin-left: 25px;
+	letter-spacing: 0.03em;
 }
 
 .main-nav .logo {
