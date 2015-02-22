@@ -46,6 +46,7 @@ Navigation
 	background-color: #fff;
 	position: fixed;
 	width: 100%;
+	z-index: 9999;
 }
 .main-nav .links{
 	float: right;
