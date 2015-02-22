@@ -123,3 +123,9 @@ button {
 	color: white;
 	font-size: 1.125rem;
 }
+
+button:hover {
+	cursor: pointer;
+	background-color: #d9400e;
+	border-color: #cf3d0e;
+}
