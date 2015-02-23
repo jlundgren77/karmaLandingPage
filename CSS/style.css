@@ -164,3 +164,35 @@ button:hover {
 	background-color: #d9400e;
 	border-color: #cf3d0e;
 }
+
+/********
+  Footer
+*********/
+
+.social {
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 9.635rem;
+}
+
+.social hr{
+	border: 0;
+	border-top: 1px solid #eaebec;
+	margin: 1.313em 0;
+
+}
+
+.social  .icons li {
+
+	display: inline-block;
+	margin: 5px 5px;
+	padding: 1px 0;
+	text-align: center;
+}
+
+.social .copy {
+	font-size: 0.875rem;
+	font-weight: 300;
+	color: #838994;
+}
